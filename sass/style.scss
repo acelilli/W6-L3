@@ -1,0 +1,43 @@
+@import "partials/resets";
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/spacings";
+@import "partials/buttons";
+@import "partials/genmixins";
+@import "partials/animations";
+
+body {
+  margin: 0;
+
+  header {
+    display: flex;
+    background-color: $headerBgColor;
+    color: $headerTextColor;
+
+    nav {
+      display: flex;
+      flex-grow: 1;
+      padding: $navPadding;
+
+      ul {
+        display: flex;
+        margin: 0;
+        list-style: none;
+        column-gap: 16px;
+        padding: 0;
+      }
+    }
+  }
+  main {
+    .titolo {
+      @extend .titolo;
+    }
+    .prova {
+      @extend .prova;
+    }
+    .btn-alt {
+      @extend .btn;
+    }
+    padding: $navPadding;
+  }
+}

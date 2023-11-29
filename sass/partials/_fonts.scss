@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap");
+$bigText: 2.5rem;
+$lilText: 1rem;
+
+.titolo {
+  font-family: "Montserrat", sans-serif;
+  font-size: $bigText;
+}
+
+.prova {
+  font-family: "Quicksand", sans-serif;
+  font-size: $lilText;
+}
